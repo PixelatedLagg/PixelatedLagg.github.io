@@ -1,0 +1,102 @@
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.exe
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.deps.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.runtimeconfig.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.runtimeconfig.dev.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.dll
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.pdb
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.Views.dll
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.Views.pdb
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.csprojAssemblyReference.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.AssemblyInfoInputs.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.AssemblyInfo.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.csproj.CoreCompileInputs.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorAssemblyInfo.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorAssemblyInfo.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\staticwebassets\Pixelated_Lagg Commissions Website.StaticWebAssets.Manifest.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\staticwebassets\Pixelated_Lagg Commissions Website.StaticWebAssets.xml
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\scopedcss\bundle\Pixelated_Lagg Commissions Website.styles.css
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.TagHelpers.input.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.TagHelpers.output.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorCoreGenerate.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorTargetAssemblyInfo.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorTargetAssemblyInfo.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.Views.pdb
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.dll
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.pdb
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.genruntimeconfig.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.csproj.CopyComplete
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.exe
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.deps.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.runtimeconfig.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.runtimeconfig.dev.json
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.dll
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.pdb
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.Views.dll
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.Views.pdb
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.csprojAssemblyReference.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.AssemblyInfoInputs.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.AssemblyInfo.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.csproj.CoreCompileInputs.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorAssemblyInfo.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorAssemblyInfo.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\staticwebassets\Pixelated_Lagg Commissions Website.StaticWebAssets.Manifest.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\staticwebassets\Pixelated_Lagg Commissions Website.StaticWebAssets.xml
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\scopedcss\bundle\Pixelated_Lagg Commissions Website.styles.css
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.TagHelpers.input.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.TagHelpers.output.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorCoreGenerate.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorTargetAssemblyInfo.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorTargetAssemblyInfo.cs
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.Views.pdb
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.dll
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.pdb
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.genruntimeconfig.cache
+C:\Users\vfmus\OneDrive\Desktop\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.csproj.CopyComplete
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.csprojAssemblyReference.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.AssemblyInfoInputs.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.AssemblyInfo.cs
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.csproj.CoreCompileInputs.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorAssemblyInfo.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorAssemblyInfo.cs
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.dll
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.pdb
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.exe
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.deps.json
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.runtimeconfig.json
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.runtimeconfig.dev.json
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.dll
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.pdb
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.Views.dll
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\bin\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.Views.pdb
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\staticwebassets\Pixelated_Lagg Commissions Website.StaticWebAssets.Manifest.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\staticwebassets\Pixelated_Lagg Commissions Website.StaticWebAssets.xml
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\scopedcss\bundle\Pixelated_Lagg Commissions Website.styles.css
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.TagHelpers.input.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.TagHelpers.output.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorCoreGenerate.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorTargetAssemblyInfo.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.RazorTargetAssemblyInfo.cs
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.Views.pdb
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.genruntimeconfig.cache
+C:\Users\vfmus\OneDrive\Desktop\My Website Main\Pixelated_Lagg Commissions Website\obj\Debug\netcoreapp3.1\Pixelated_Lagg Commissions Website.csproj.CopyComplete

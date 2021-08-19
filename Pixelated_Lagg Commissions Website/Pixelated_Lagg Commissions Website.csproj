@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Pixelated_Lagg_Commissions_Website</RootNamespace>
+  </PropertyGroup>
+
+</Project>

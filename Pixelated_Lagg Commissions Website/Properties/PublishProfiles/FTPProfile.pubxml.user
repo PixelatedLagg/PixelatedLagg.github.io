@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>http://somee.com/DOKA/DOU/DOMP/DOWebSites/DOSiteFileManager.aspx?k1k3k5=6WXWo6KgZsqUQmTAFQX/FA/vFWF4pN16Fq2UB7ExsT4=</_PublishTargetUrl>
+    <History>False|2021-07-14T12:19:16.8243768Z;</History>
+  </PropertyGroup>
+</Project>

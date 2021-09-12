@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: black;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#TitleBox {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    align-content: center;
+    height: 150px;
+}
+#TextBox {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    align-content: center;
+}
+#GameBox {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    align-content: center;
+    height: 180px;
+}
+#Icon {
+    float: left;
+    margin-left: 1.7%;
+}

@@ -5,43 +5,47 @@
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="images/favicon.ico" />
         <link rel="stylesheet" href="css/styling.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/draggable.js"></script>
         <script src="js/main.js"></script>
     </head>
     <body>
-        <div id="TitleBox">
-            <div style="float: left">
-                <h1>Pixelated_Lagg</h1>
-                <a href="https://discord.gg/4W5rTDD73X" id="Icon">
-                    <img onmouseover="onhover(this)" onmouseout="onhoverexit(this)" src="images/Contact.png"
-                        style="width: 50px; height: 50px;">
-                </a>
-                <a href="https://github.com/PixelatedLagg" id="Icon">
-                    <img onmouseover="onhover(this)" onmouseout="onhoverexit(this)" src="images/Github.png"
-                        style="width: 50px; height: 50px;">
-                </a>
-                <a href="https://itch.io/profile/pixelated-lagg" id="Icon">
-                    <img onmouseover="onhover(this)" onmouseout="onhoverexit(this)" src="images/Itch.png"
-                        style="width: 50px; height: 50px;">
-                </a>
+        <div id="nav" class="nav">
+            <div style="margin-top: 10px; margin-bottom: 10px; margin-left: 20px;">
+                <h2>Meta</h2>
+                <a onclick="infoDisplay(1);" onmouseover="colorGen(this);" onmouseout="setWhite(this);" id="link">Pixelated_Lagg</a>
+                <p>──────────</p>
+                <h2>Games</h2>
+                <a onclick="infoDisplay(2);" onmouseover="colorGen(this);" onmouseout="setWhite(this);" id="link">Jump Squared</a>
+                <p>──────────</p>
+                <h2>Projects</h2>
+                <a onclick="infoDisplay(3);" onmouseover="colorGen(this);" onmouseout="setWhite(this);" id="link">Impart</a>
+                <br>
+                <br>
+                <a onclick="infoDisplay(4);" onmouseover="colorGen(this);" onmouseout="setWhite(this);" id="link">Scrape</a>
             </div>
         </div>
-        <div id="TextBox">
-            <p>Pixelated_Lagg is a teenage developer who specializes in creating applications and 2d/3d game environments.
-                They are fluent in c# and somewhat competent in html/css. Having created Headshot Studios in April of 2021,
-                Pixelated_Lagg is always working on a new game or piece of software.</p>
-        </div>
-        <div id="TitleBox">
-            <h1>Jump Squared</h1>
-            <a href="https://pixelated-lagg.itch.io/jump-squared" id="Icon">
-                <img onmouseover="onhover(this)" onmouseout="onhoverexit(this)" src="images/JumpSquared.png"
-                    style="width: 50px; height: 50px;">
+        <div id="icons">
+            <a href="https://discord.gg/4W5rTDD73X" id="icon" style="margin-left: 10px;" class="discord">
+                <img src="images/Contact.png">
+            </a>
+            <a href="https://github.com/PixelatedLagg" id="icon" class="github">
+                <img src="images/Github.png">
+            </a>
+            <a href="https://itch.io/profile/pixelated-lagg" id="icon" style="margin-right: 10px;" class="itch">
+                <img src="images/Itch.png">
             </a>
         </div>
-        <div id="TextBox">
-            <p>Jump Squared is a basic 2d platformer based on Geometry Dash and Jump King. It is centered around a nameless
-                and emotionless blue square who needs to get to the white platform at the end of each level. Currently,
-                there are 3 levels in game, and I am working to finish the game with a 4th level.</p>
+        <div id="info">
+            <div style="margin: 10%">
+                <h1 id="title">Hello! I'm PixelatedLagg.</h1>
+                <br>
+                <p id="desc">I am a teenage developer who likes to make games, applications, and discord bots. I mainly use C#, however I am learning C and C++. I am also somewhat competent in HTML/CSS. With nearly 2 years of experience and way too much free time, I am constantly making a new game or piece of software.</p>
+            </div>
+            <a href="https://pixelatedlagg.github.io" id="linkContent">
+                <img src="images/Link.png" style="width: 50px; height: 50px;">
+            </a>
         </div>
-        <img src="images/footer.png" style="width: 100%; height: 100%; display: block; -webkit-user-drag: none;">
+        <br>
     </body>
 </html>

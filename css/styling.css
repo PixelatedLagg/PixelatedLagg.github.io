@@ -2,8 +2,14 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 p {
+    font-size: large;
+    color: white;
+}
+a {
     color: white;
 }
 h1 {
@@ -12,47 +18,56 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
 }
-#TitleBox {
-    border-radius: 25px;
-    border: 2px solid white;
-    padding: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 2%;
-    align-content: center;
-    height: 150px;
+h2 {
+    color: white;
+    font-size: larger;
 }
-#TextBox {
-    border-radius: 25px;
-    border: 2px solid white;
-    padding: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 2%;
-    align-content: center;
-}
-#GameBox {
-    border-radius: 25px;
-    border: 2px solid white;
-    padding: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 2%;
-    align-content: center;
-    height: 180px;
-}
-#Icon {
+#icons {
+    margin-top: 20px;
+    margin-left: 20px;
     float: left;
-    margin-left: 1.7%;
+    float: top;
+    border: 2px solid white;
+    border-radius: 25px;
+    align-items: center;
 }
-::-webkit-scrollbar {
-    width: 10px;
+#icon {
+    margin: 5px;
+    float: left;
 }
-::-webkit-scrollbar-track {
-     border-left: 2px solid white;
+#nav {
+    margin-top: 20px;
+    float: right;
+    width: 15%;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
-::-webkit-scrollbar-thumb {
-    background: white;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+#info {
+    position: relative;
+    text-align: center;
+    clear: left;
+    height: auto;
+    z-index: 0;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.githubShadow {
+    -moz-box-shadow: 20px -10px rgb(117, 15, 138);
+    -webkit-box-shadow: 20px -10px rgb(117, 15, 138);
+    box-shadow: 20px -10px rgb(117, 15, 138);
+}
+.itchShadow {
+    -moz-box-shadow: 20px -10px rgb(15, 99, 177);
+    -webkit-box-shadow: 20px -10px rgb(15, 99, 177);
+    box-shadow: 20px -10px rgb(15, 99, 177);
+}
+.discordShadow {
+    -moz-box-shadow: 20px -10px rgb(177, 15, 15);
+    -webkit-box-shadow: 20px -10px rgb(177, 15, 15);
+    box-shadow: 20px -10px rgb(177, 15, 15);
 }

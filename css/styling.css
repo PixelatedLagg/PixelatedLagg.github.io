@@ -22,6 +22,12 @@ h2 {
     color: white;
     font-size: larger;
 }
+h3 {
+    color: black;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
 #icons {
     margin-top: 20px;
     margin-left: 20px;
@@ -50,11 +56,51 @@ h2 {
     text-align: center;
     clear: left;
     height: auto;
-    z-index: 0;
     border: 2px solid white;
     border-radius: 25px;
     margin-left: 25%;
     margin-right: 25%;
+}
+#status {
+    position: relative;
+    text-align: center;
+    clear: left;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+}
+.light {
+    float: left;
+    width: 15px; 
+    height: 15px; 
+    margin-left: 20%;
+    border-radius: 50%; 
+    background-color: black;
+    border: 2px solid rgb(117, 15, 138);
+    animation: lightAnim 1s steps(5, start) infinite;
+    -webkit-animation: lightAnim 1s steps(5, start) infinite;
+}
+.offline {
+    float: left;
+    width: 15px; 
+    height: 15px; 
+    margin-left: 20%;
+    border-radius: 50%; 
+    background-color: black;
+    border: 2px solid rgb(117, 15, 138);
+}
+@keyframes lightAnim {
+    to {
+        background-color:rgb(117, 15, 138);
+    }
+  }
+@-webkit-keyframes lightAnim {
+    to {
+        background-color:rgb(117, 15, 138);
+    }
 }
 .githubShadow {
     -moz-box-shadow: 20px -10px rgb(117, 15, 138);

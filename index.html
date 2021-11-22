@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="images/favicon.ico" />
         <link rel="stylesheet" href="css/styling.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
     </head>
     <body>
@@ -45,6 +45,42 @@
                 <img src="images/Link.png" style="width: 50px; height: 50px;">
             </a>
         </div>
-        <br>
+        <div id="status">
+            <div style="margin-bottom: 10%; margin-top: 5%;">
+                <h3>As of Now,</h3>
+                <div style="margin-left: 30%; margin-right: 30%;">
+                    <span class="light"></span>
+                    <p id="statusMessage" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 3%; padding: 0; float: left;"></p>
+                </div>
+            </div>
+        </div>
     </body>
+    <script>
+        if (new Date().getDay() != 0 && new Date().getDay() != 6) //not weekend
+        {
+            if (new Date().getUTCHours() >= 20 || new Date().getUTCHours() <= 5) //3pm to 12am est (online)
+            {
+                document.getElementById("statusMessage").textContent = "Pixelated_Lagg is online.";
+            }
+            else
+            {
+                document.getElementById("statusMessage").textContent = `Pixelated_Lagg is offline. (I will be online in ${20 - new Date().getUTCHours()} hours)`;
+                $("statusMessage").toggleClass('offline'); 
+                console.log("test");
+            }
+        }
+        else
+        {
+            if (new Date().getUTCHours() >= 15 || new Date().getUTCHours() <= 7) //10am to 2am est (online)
+            {
+                document.getElementById("statusMessage").textContent = "Pixelated_Lagg is online.";
+            }
+            else
+            {
+                document.getElementById("statusMessage").textContent = `Pixelated_Lagg is offline. (I will be online in ${15 - new Date().getUTCHours()} hours)`;
+                $("statusMessage").toggleClass('offline'); 
+                console.log("test");
+            }
+        }
+    </script>
 </html>

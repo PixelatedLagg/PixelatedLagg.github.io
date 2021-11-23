@@ -3,6 +3,11 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 100%;
 }
 p {
     color: white;
@@ -27,6 +32,9 @@ h3 {
     -webkit-text-stroke: 1px white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.1vw;
+}
+div {
+    background-color: black;
 }
 * {
     border-radius: 3px;

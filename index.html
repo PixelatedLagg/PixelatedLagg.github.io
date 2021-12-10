@@ -4,85 +4,25 @@
         <title>Pixelated_Lagg's Portfolio</title>
         <meta charset="utf-8">
         <meta name="phone" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="images/favicon.ico">
-        <link rel="stylesheet" href="css/styling.css">
+        <link rel="shortcut icon" href="favicon.ico">
         <noscript><meta http-equiv="refresh" content="0; url=error.html"/></noscript>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="terminal.css">
+        <script src="input.js"></script>
     </head>
-    <body>
-        <div id="nav" class="nav">
-            <div style="margin-top: 2%; margin-bottom: 2%; margin-left: 3%;">
-                <h2>Meta</h2>
-                <a onclick="infoDisplay(1);" onmouseover="colorGen(this);" onmouseout="setWhite(this);" id="link">Pixelated_Lagg</a>
-                <p>──────────</p>
-                <h2>Games</h2>
-                <a onclick="infoDisplay(2);" onmouseover="colorGen(this);" onmouseout="setWhite(this);" id="link">Jump Squared</a>
-                <p>──────────</p>
-                <h2>Projects</h2>
-                <a onclick="infoDisplay(3);" onmouseover="colorGen(this);" onmouseout="setWhite(this);" id="link">Impart</a>
-                <br>
-                <br>
-                <a onclick="infoDisplay(4);" onmouseover="colorGen(this);" onmouseout="setWhite(this);" id="link">Scrape</a>
-            </div>
+    <body style="padding-left: 10px;">
+        <div id="output">
+            <p><i>root@pl-website</i>:<b>~</b>$ welcome<br>Welcome to my website!<br>Because text interface > web design, this is a terminal.<br>Use 'info' to list all commands.</p>
         </div>
-        <div id="icons">
-            <a href="https://discord.gg/4W5rTDD73X" style="color: black;">
-                <img src="images/Contact.png" id="icon" class="discord"></img>
-            </a>
-            <a href="https://github.com/PixelatedLagg" style="color: black;">
-                <img src="images/Github.png" id="icon" class="github"></img>
-            </a>
-            <a href="https://itch.io/profile/pixelated-lagg" style="color: black;">
-                <img src="images/Itch.png" id="icon" class="itch"></img>
-            </a>
-        </div>
-        <div id="info">
-            <div style="margin: 10%">
-                <h1 id="title">Hello! I'm PixelatedLagg.</h1>
-                <br>
-                <p id="desc">I am a teenage developer who likes to make games, applications, and discord bots. I mainly use C#, however I am learning C and C++. I am also somewhat competent in HTML/CSS. With nearly 2 years of experience and way too much free time, I am constantly making a new game or piece of software.</p>
-            </div>
-            <a href="https://pixelatedlagg.github.io" id="linkContent">
-                <img src="images/Link.png" style="width: 2.5vw; height: 2.5vw;">
-            </a>
-        </div>
-        <div id="status">
-            <div style="margin-bottom: 10%; margin-top: 5%;">
-                <h3>As of Now,</h3>
-                <div>
-                    <span class="light" id="lightID"></span>
-                    <div style="margin-left: 10%; align-items: center; margin-right: 0;">
-                        <p id="statusMessage" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 3%; padding: 0; position: absolute;"></p>
-                    </div>
-                </div>
-            </div>
+        <div>
+            <p style="margin: 0; padding: 0; float: left;"><i>root@pl-website</i>:<b>~</b>$&nbsp;</p>
+            <form id="form">
+                <input type="text" id="input" onsubmit="terminalInput(); return false;" style="background: transparent; border: none; outline-width: 0; width: 90%;" autocomplete="off"/>
+                <input type="submit" style="display: none;"/>
+            </form>
         </div>
     </body>
-    <script>
-        if (new Date().getDay() != 0 && new Date().getDay() != 6) //not weekend
-        {
-            if (new Date().getUTCHours() >= 20 || new Date().getUTCHours() <= 5) //3pm to 12am est (online)
-            {
-                document.getElementById("statusMessage").textContent = "Pixelated_Lagg is online.";
-            }
-            else
-            {
-                document.getElementById("statusMessage").textContent = `Pixelated_Lagg is offline. (I will be online in ${20 - new Date().getUTCHours()} hours)`;
-                document.getElementById("lightID").className = "offline";
-            }
-        }
-        else
-        {
-            if (new Date().getUTCHours() >= 15 || new Date().getUTCHours() <= 7) //10am to 2am est (online)
-            {
-                document.getElementById("statusMessage").textContent = "Pixelated_Lagg is online.";
-            }
-            else
-            {
-                document.getElementById("statusMessage").textContent = `Pixelated_Lagg is offline. (I will be online in ${15 - new Date().getUTCHours()} hours)`;
-                document.getElementById("lightID").className = "offline";
-            }
-        }
-    </script>
 </html>

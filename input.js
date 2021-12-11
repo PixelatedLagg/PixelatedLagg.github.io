@@ -35,6 +35,9 @@ function terminalInput()
         case "welcome":
             p.innerHTML = "You have already been welcomed :/";
             break;
+        case "wwssadadba":
+            p.innerHTML = "You have found my hidden secret :>";
+            break;
         default:
             p.innerHTML = `"${document.getElementById("input").value}" is not a recognized command!`;
             break;

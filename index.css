@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height: 30px;
+    overflow: hidden;
+}
+p {
+    color: #CDDCD8;
+    font-size: medium;
+    font-family: 'Ubuntu Mono', monospace;
+}
+input {
+    font-size: medium;
+}
+input:focus {
+    color: #CDDCD8;
+    font-family: 'Ubuntu Mono', monospace;
+}
+i {
+    font-style: normal; 
+    color: #7DB830;
+}
+b {
+    font-style: normal; 
+    color: #6888AA;
+}
+a {
+    color: #6888AA;
+    font-size: medium;
+}
+a:enabled {
+    color: #6888AA;
+    font-size: medium;
+}
+.terminal {
+    height: 80%;
+    width: 90%;
+    background-color: #300A24;
+    padding: 10px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.terminal:hover {
+    cursor: pointer !important;
+}
+.terminal::-webkit-scrollbar {
+    display: none;
+}
+#input {
+    background: transparent;
+    border: none;
+    outline-width: 0;
+    width: 100%;
+    pointer-events: none;
+    color: #CDDCD8;
+    font-family: 'Ubuntu Mono', monospace;
+}
+form {
+    float: left;
+    width: max-content;
+}
+span {
+    color: #CDDCD8;
+    font-size: medium;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: normal;
+    color: #6888AA;
+    background-color: #000;
+    border-radius: 4px;
+}
+span:hover {
+    color: #7DB830;
+}
+@media (max-width: 500px) {
+    .terminal {
+        height: 80%;
+        width: 100%;
+        background-color: #300A24;
+        padding: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow-x: hidden;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        position: absolute;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}

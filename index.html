@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
     <head>
         <title>Pixelated_Lagg's Portfolio</title>
@@ -10,19 +10,26 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="terminal.css">
-        <script src="input.js"></script>
+        <link type="text/css" rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
     </head>
-    <body style="padding-left: 10px;">
-        <div id="output">
-            <p><i>root@pl-website</i>:<b>~</b>$ welcome<br>Welcome to my website!<br>Because text interface > web design, this is a terminal.<br>Use 'info' to list all commands.</p>
+    <body>
+        <div class="terminal" onclick="document.getElementById('input').focus();">
+            <div style="display: inline-block;">
+                <div id="output">
+                    <p><i>root@pl-website</i>:<b>~</b>$ welcome<br>Welcome to my website. Use <span onclick="input('ui')">ui</span> to be sent to a normal user interface. Use <span onclick="input('help')">help</span> to list all commands.</p>
+                </div>
+                <div style="display: flex; position: relative;">
+                    <p><i>root@pl-website</i>:<b>~</b>$&nbsp;</p>
+                    <form id="form">
+                        <input type="text" id="input" autocomplete="off"/>
+                        <input type="submit" style="display: none;"/>
+                    </form>
+                </div>
+            </div>
         </div>
         <div>
-            <p style="margin: 0; padding: 0; float: left;"><i>root@pl-website</i>:<b>~</b>$&nbsp;</p>
-            <form id="form">
-                <input type="text" id="input" onsubmit="terminalInput(); return false;" style="background: transparent; border: none; outline-width: 0; width: 50%;" autocomplete="off"/>
-                <input type="submit" style="display: none;"/>
-            </form>
+            <p style="text-align: center; margin-top: 10px; color: #000;">Made with ❤️ by Pixelated_Lagg.</p>
         </div>
     </body>
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Pixelated_Lagg's Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="phone" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico">
+        <noscript><meta http-equiv="refresh" content="0; url=error.html"/></noscript>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="terminal" onclick="document.getElementById('input').focus();">
+            <div style="display: inline-block;">
+                <div id="output">
+                    <p><i>root@pl-website</i>:<b>~</b>$ welcome<br>Welcome to my website. Use <span onclick="input('ui')">ui</span> to be sent to a normal user interface. Use <span onclick="input('help')">help</span> to list all commands.</p>
+                </div>
+                <div style="display: flex; position: relative;">
+                    <p><i>root@pl-website</i>:<b>~</b>$&nbsp;</p>
+                    <form id="form">
+                        <input type="text" id="input" autocomplete="off"/>
+                        <input type="submit" style="display: none;"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p style="text-align: center; margin-top: 10px; color: #000;">Made with ❤️ by Pixelated_Lagg.</p>
+        </div>
+    </body>
+</html>

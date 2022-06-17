@@ -85,15 +85,12 @@ span {
 span:hover {
     color: #7DB830;
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .terminal {
-        height: 80%;
         width: 100%;
+        height: 100%;
         background-color: #300A24;
         padding: 10px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         overflow-x: hidden;
         -webkit-user-select: none;
         -khtml-user-select: none;
@@ -103,5 +100,8 @@ span:hover {
         position: absolute;
         -ms-overflow-style: none;
         scrollbar-width: none;
+    }
+    #top-text {
+        display: none;
     }
 }

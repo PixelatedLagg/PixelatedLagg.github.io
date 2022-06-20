@@ -1,0 +1,62 @@
+@charset "UTF-8";
+p {
+    font-family: 'Ubuntu Mono', monospace;
+}
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+h1 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 15px;
+    text-align: center;
+}
+.stats {
+    margin: 15px;
+    float: left;
+    top: 0;
+    border: 2px solid #606060;
+    font-family: 'Ubuntu Mono', monospace;
+    width: 80px;
+    height: 80px;
+}
+.stats:hover {
+    animation: 1s stats-anim;
+    animation-fill-mode: forwards;
+}
+.center-top {
+    background-color: #606060;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+#text {
+    color: black;
+}
+@keyframes stats-anim {
+    to {
+        background-color: #70d6ff;
+    }
+}
+.stats-icon p {
+    line-height: 80px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: #606060;
+    user-select: none;
+    -moz-user-select: none;
+}
+h3 {
+    color: #606060;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+}

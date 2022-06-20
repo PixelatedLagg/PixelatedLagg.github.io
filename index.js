@@ -1,3 +1,4 @@
+var loading = false;
 $(function () {
     $('#form').on('submit',function (e) {
         e.preventDefault();
@@ -6,10 +7,12 @@ $(function () {
 });
 function input(input)
 {
-    if (input == "")
+    if (input == "" || loading)
     {
         return;
     }
+    var originalInput = input;
+    input = input.toLowerCase();
     if (input == "clear" || input == "cls")
     {
         $('#output').empty();
@@ -31,16 +34,39 @@ function input(input)
             p.innerHTML = "Hello! I'm PixelatedLagg.<br>I am a teenage developer who likes to make games, applications, and discord bots. <br>I mainly use C#, however I am learning C and C++. I am also somewhat competent in HTML/CSS. <br>With nearly 2 years of experience and way too much free time, I am constantly making a new game or piece of software.<br><a href=\"https://discord.gg/4W5rTDD73X\">Discord</a> <a href=\"https://github.com/PixelatedLagg\">Github</a> <a href=\"https://itch.io/profile/pixelated-lagg\">Itch</a>";
             break;
         case "old":
-            p.innerHTML = "<a href=\"https://pixelatedlagg.github.io/old-website/\">Old Website</a>";
+            p.className = "loading";
+            p.innerHTML = "Loading old website...";
+            inp.innerHTML = `<i>root@pl-website</i>:<b>~</b>$ ${input}`;
+            document.getElementById("output").appendChild(inp);
+            document.getElementById("output").appendChild(p);
+            document.getElementById("input").value = "";
+            document.getElementById("inputLine").remove();
+            loading = true;
+            setTimeout(function(){
+                window.location.href = "https://pixelatedlagg.github.io/old-website/";
+            }, 5000);
             break;
         case "welcome":
             p.innerHTML = "Welcome to my website. Use <span onclick=\"input('ui')\">ui</span> to be sent to a normal user interface. Use <span onclick=\"input('help')\">help</span> to list all commands.";
             break;
+        case "ui":
+            p.className = "loading";
+            p.innerHTML = "Loading user interface...";
+            inp.innerHTML = `<i>root@pl-website</i>:<b>~</b>$ ${originalInput}`;
+            document.getElementById("output").appendChild(inp);
+            document.getElementById("output").appendChild(p);
+            document.getElementById("input").value = "";
+            document.getElementById("inputLine").remove();
+            loading = true;
+            setTimeout(function(){
+                window.location.href = "ui/index.html";
+            }, 5000);
+            return;
         default:
-            p.innerHTML = `${input} : The term '${input}' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.`;
+            p.innerHTML = `${originalInput} : The term '${originalInput}' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.`;
             break;
     }
-    inp.innerHTML = `<i>root@pl-website</i>:<b>~</b>$ ${input}`;
+    inp.innerHTML = `<i>root@pl-website</i>:<b>~</b>$ ${originalInput}`;
     document.getElementById("output").appendChild(inp);
     document.getElementById("output").appendChild(p);
     document.getElementById("input").value = "";

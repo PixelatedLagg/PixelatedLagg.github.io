@@ -7,6 +7,7 @@
         <link rel="shortcut icon" href="../favicon.ico">
         <noscript><meta http-equiv="refresh" content="0; url=../error.html"/></noscript>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="index.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"/>
@@ -14,23 +15,50 @@
         <link type="text/css" rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="stats" id="csharp" onclick="input('csharp')">
-            <div class="stats-icon">
-                <p>C#</p>
+        <h1 id="intro1">Hey,</h1>
+        <h2 id="intro2">I make stuff</h2>
+        <h1 id="intro3">for people.</h1>
+        <div class="details">
+            <h1 class="details-text">More Details</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#EAE2B7" viewBox="0 0 25 25" class="details-svg" onclick="DetailClick()">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+            </svg>
+        </div>
+        <div class="langs">
+            <div class="row">
+                <div class="col langs-csharp">
+                    <h1>C#</h1>
+                    <p>Ability:</p>
+                    <p>[##########]</p>
+                </div>
+                <div class="col langs-dotnet">
+                    <h1>.NET</h1>
+                    <p>Ability:</p>
+                    <p>[##########]</p>
+                </div>
+                <div class="col langs-webdev">
+                    <h1>HTML/CSS</h1>
+                    <p>Ability:</p>
+                    <p>[########--]</p>
+                </div>
             </div>
-        </div>
-        <div class="stats">
-            <div class="stats-icon">
-                <p>.NET</p>
+            <div class="row">
+                <div class="col langs-cplusplus">
+                    <h1>C++</h1>
+                    <p>Ability:</p>
+                    <p>[######----]</p>
+                </div>
+                <div class="col langs-c">
+                    <h1>C</h1>
+                    <p>Ability:</p>
+                    <p>[###-------]</p>
+                </div>
+                <div class="col langs-js">
+                    <h1>JavaScript</h1>
+                    <p>Ability:</p>
+                    <p>[##--------]</p>
+                </div>
             </div>
-        </div>
-        <div class="center-top">
-            <p id="text">...</p>
-        </div>
-        <div class="center">
-            <h1>Pixelated_Lagg</h1>
-            <h2>(design not finisheed yet)</h2>
         </div>
     </body>
-    <script src="index.js"></script>
 </html>

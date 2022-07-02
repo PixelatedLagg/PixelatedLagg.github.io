@@ -1,62 +1,126 @@
 @charset "UTF-8";
 p {
     font-family: 'Ubuntu Mono', monospace;
-}
-.center {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    color: #003049;
+    font-size: 15px;
 }
 h1 {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 50px;
-    text-align: center;
 }
 h2 {
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 15px;
+    font-size: 50px;
+}
+#intro1 {
+    opacity: 0;
+    transform: translateY(-200px);
+    transform: translatex(100px);
+    animation: 1s intro-fall;
+    animation-fill-mode: forwards;
+    color: #003049;
+}
+#intro2 {
+    opacity: 0;
+    transform: translateY(-200px);
+    transform: translatex(100px);
+    animation: 3s double;
+    animation-fill-mode: forwards;
+    color: #F77F00;
+}
+#intro3 {
+    opacity: 0;
+    transform: translateY(-200px);
+    transform: translatex(100px);
+    animation: 2s intro-fall;
+    animation-fill-mode: forwards;
+    color: #003049;
+}
+.details-text {
+    opacity: 0;
+    color: #EAE2B7;
     text-align: center;
-}
-.stats {
-    margin: 15px;
-    float: left;
-    top: 0;
-    border: 2px solid #606060;
-    font-family: 'Ubuntu Mono', monospace;
-    width: 80px;
-    height: 80px;
-}
-.stats:hover {
-    animation: 1s stats-anim;
+    animation: 2s details;
     animation-fill-mode: forwards;
 }
-.center-top {
-    background-color: #606060;
-    display: inline-block;
-    width: 100%;
-    height: 300px;
-    padding: 10px;
+.details-svg {
+    display: block;
+    margin: auto;
+    animation: 2s details-svg;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
-#text {
-    color: black;
+.details-svg:hover {
+    fill: #F77F00;
+    filter: drop-shadow(3px 3px #D62828);
 }
-@keyframes stats-anim {
-    to {
-        background-color: #70d6ff;
+.langs {
+    background-color: #EAE2B7;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    width: 80%;
+    top: 100vh;
+}
+.langs div div {
+    text-align: center;
+}
+.langs div div p {
+    line-height: 5px;
+}
+@keyframes intro-fall {
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(200px);
+        opacity: 1;
     }
 }
-.stats-icon p {
-    line-height: 80px;
-    font-size: 30px;
-    text-align: center;
-    vertical-align: middle;
-    color: #606060;
-    user-select: none;
-    -moz-user-select: none;
+@keyframes double {
+    50% {
+        transform: translateY(200px);
+        opacity: 1;
+    }
+    100% {
+        text-shadow: 3px 3px #D62828;
+        transform: translateY(200px);
+        opacity: 1;
+    }
 }
-h3 {
-    color: #606060;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 30px;
+@keyframes details {
+    50% {
+        opacity: 1;
+    }
+    100% {
+        text-shadow: 3px 3px #FCBF49;
+        opacity: 1;
+    }
+}
+@keyframes details-svg {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        filter: drop-shadow(3px 3px #FCBF49);
+        opacity: 1;
+    }
+}
+@keyframes details-svg-hover {
+    from {
+        opacity: 1;
+    }
+    to {
+        fill: #D62828;
+    }
+}
+body {
+    
+}
+.element::-webkit-scrollbar {
+    width: 0 !important;
 }

@@ -1,4 +1,10 @@
 @charset "UTF-8";
+body::-webkit-scrollbar {
+    width: 0 !important;
+}
+br {
+    user-select: none;
+}
 p {
     font-family: 'Ubuntu Mono', monospace;
     color: #003049;
@@ -6,53 +12,27 @@ p {
 }
 h1 {
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 50px;
+    font-size: 100px;
 }
-h2 {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 50px;
-}
-#intro1 {
+.move-left-text {
     opacity: 0;
     transform: translateY(-200px);
-    transform: translatex(100px);
-    animation: 1s intro-fall;
+    transform: translateX(75%);
     animation-fill-mode: forwards;
     color: #003049;
 }
-#intro2 {
-    opacity: 0;
+.details {
+    margin-top: 100px;
     transform: translateY(-200px);
-    transform: translatex(100px);
-    animation: 3s double;
-    animation-fill-mode: forwards;
-    color: #F77F00;
-}
-#intro3 {
-    opacity: 0;
-    transform: translateY(-200px);
-    transform: translatex(100px);
-    animation: 2s intro-fall;
-    animation-fill-mode: forwards;
-    color: #003049;
-}
-.details-text {
-    opacity: 0;
-    color: #EAE2B7;
-    text-align: center;
-    animation: 2s details;
+    transform: translateX(75%);
+    animation: 5s details;
     animation-fill-mode: forwards;
 }
 .details-svg {
-    display: block;
-    margin: auto;
-    animation: 2s details-svg;
+    opacity: 0;
+    animation: 5s details-svg;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
-}
-.details-svg:hover {
-    fill: #F77F00;
-    filter: drop-shadow(3px 3px #D62828);
 }
 .langs {
     background-color: #EAE2B7;
@@ -69,58 +49,53 @@ h2 {
 .langs div div p {
     line-height: 5px;
 }
-@keyframes intro-fall {
-    50% {
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(200px);
-        opacity: 1;
-    }
-}
-@keyframes double {
-    50% {
-        transform: translateY(200px);
-        opacity: 1;
-    }
-    100% {
-        text-shadow: 3px 3px #D62828;
-        transform: translateY(200px);
-        opacity: 1;
-    }
-}
 @keyframes details {
     50% {
+        transform: translateY(150px);
+        transform: translateX(20%);
         opacity: 1;
     }
     100% {
-        text-shadow: 3px 3px #FCBF49;
+        transform: translateY(150px);
+        transform: translateX(20%);
         opacity: 1;
+    }
+}
+@keyframes details-text {
+    50% { }
+    100% {
+        text-shadow: 6px 6px #FCBF49;
     }
 }
 @keyframes details-svg {
-    0% {
-        opacity: 0;
-    }
     50% {
         opacity: 1;
     }
     100% {
-        filter: drop-shadow(3px 3px #FCBF49);
+        filter: drop-shadow(6px 6px #FCBF49);
         opacity: 1;
     }
 }
-@keyframes details-svg-hover {
-    from {
+@keyframes move-left-text-base {
+    50% {
         opacity: 1;
     }
-    to {
-        fill: #D62828;
+    100% {
+        transform: translateY(150px);
+        transform: translateX(20%);
+        opacity: 1;
     }
 }
-body {
-    
-}
-.element::-webkit-scrollbar {
-    width: 0 !important;
+@keyframes move-left-text-double {
+    50% {
+        transform: translateY(150px);
+        transform: translateX(20%);
+        opacity: 1;
+    }
+    100% {
+        text-shadow: 6px 6px #D62828;
+        transform: translateY(150px);
+        transform: translateX(20%);
+        opacity: 1;
+    }
 }

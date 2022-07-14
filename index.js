@@ -43,6 +43,9 @@ function input(input)
             document.getElementById("inputLine").remove();
             loading = true;
             setTimeout(function(){
+                p.className = "";
+                p.innerHTML = "Loaded old website."
+                loading = false;
                 window.location.href = "https://pixelatedlagg.github.io/old-website/";
             }, 5000);
             break;
@@ -59,6 +62,9 @@ function input(input)
             document.getElementById("inputLine").remove();
             loading = true;
             setTimeout(function(){
+                p.className = "";
+                p.innerHTML = "Loaded user interface."
+                loading = false;
                 window.location.href = "ui/index.html";
             }, 5000);
             return;

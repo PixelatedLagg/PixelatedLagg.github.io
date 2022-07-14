@@ -34,21 +34,6 @@ h1 {
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
 }
-.langs {
-    background-color: #EAE2B7;
-    border-radius: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    position: absolute;
-    width: 80%;
-    top: 100vh;
-}
-.langs div div {
-    text-align: center;
-}
-.langs div div p {
-    line-height: 5px;
-}
 @keyframes details {
     50% {
         transform: translateY(150px);

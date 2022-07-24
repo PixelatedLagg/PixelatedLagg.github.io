@@ -12,7 +12,17 @@ p {
 }
 h1 {
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 100px;
+    font-size: 10vh;
+}
+h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 5vh;
+    text-shadow: 3px 3px #023e8a;
+    color: #caf0f8;
+}
+b {
+    font-weight: normal;
+    color: #48cae4;
 }
 .move-left-text {
     opacity: 0;
@@ -21,47 +31,13 @@ h1 {
     animation-fill-mode: forwards;
     color: #003049;
 }
-.details {
-    margin-top: 100px;
-    transform: translateY(-200px);
-    transform: translateX(75%);
-    animation: 5s details;
+.langs {
+    position: block;
+    margin-top: 50vh;
+    animation: 5s appear;
     animation-fill-mode: forwards;
 }
-.details-svg {
-    opacity: 0;
-    animation: 5s details-svg;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-}
-@keyframes details {
-    50% {
-        transform: translateY(150px);
-        transform: translateX(20%);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(150px);
-        transform: translateX(20%);
-        opacity: 1;
-    }
-}
-@keyframes details-text {
-    50% { }
-    100% {
-        text-shadow: 6px 6px #FCBF49;
-    }
-}
-@keyframes details-svg {
-    50% {
-        opacity: 1;
-    }
-    100% {
-        filter: drop-shadow(6px 6px #FCBF49);
-        opacity: 1;
-    }
-}
-@keyframes move-left-text-base {
+@keyframes move-left-text {
     50% {
         opacity: 1;
     }
@@ -71,7 +47,7 @@ h1 {
         opacity: 1;
     }
 }
-@keyframes move-left-text-double {
+@keyframes move-left-text-em {
     50% {
         transform: translateY(150px);
         transform: translateX(20%);
@@ -81,6 +57,27 @@ h1 {
         text-shadow: 6px 6px #D62828;
         transform: translateY(150px);
         transform: translateX(20%);
+        opacity: 1;
+    }
+}
+@keyframes move-left-text-dem {
+    50% {
+        transform: translateY(150px);
+        transform: translateX(20%);
+        opacity: 1;
+    }
+    100% {
+        text-shadow: 6px 6px #FCBF49;
+        transform: translateY(150px);
+        transform: translateX(20%);
+        opacity: 1;
+    }
+}
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
         opacity: 1;
     }
 }

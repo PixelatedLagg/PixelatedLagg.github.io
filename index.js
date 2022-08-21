@@ -1,3 +1,7 @@
+window.onpopstate = function() { //force reload on chromium
+    location.reload();
+}
+window.onunload = function() { }; //stop firefox from caching
 var loading = false;
 $(function () {
     $('#form').on('submit',function (e) {

@@ -1,88 +1,13 @@
 @charset "UTF-8";
-body::-webkit-scrollbar {
-    width: 0 !important;
-}
-br {
-    user-select: none;
-}
-p {
+* {
     font-family: 'Ubuntu Mono', monospace;
-    color: #003049;
-    font-size: 15px;
 }
 h1 {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 10vh;
+    font-size: 70px;
 }
-h2 {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 5vh;
-    text-shadow: 3px 3px #023e8a;
-    color: #caf0f8;
-}
-b {
-    font-weight: normal;
-    color: #48cae4;
-}
-.move-left-text {
-    opacity: 0;
-    transform: translateY(-200px);
-    transform: translateX(75%);
-    animation-fill-mode: forwards;
-    color: #003049;
+body {
+    margin-left: 20px;
 }
 .langs {
-    position: block;
-    margin-top: 50vh;
-    animation: 5s appear;
-    animation-fill-mode: forwards;
-}
-@keyframes move-left-text {
-    50% {
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(150px);
-        transform: translateX(20%);
-        opacity: 1;
-    }
-}
-@keyframes move-left-text-em {
-    50% {
-        transform: translateY(150px);
-        transform: translateX(20%);
-        opacity: 1;
-    }
-    100% {
-        text-shadow: 6px 6px #D62828;
-        transform: translateY(150px);
-        transform: translateX(20%);
-        opacity: 1;
-    }
-}
-@keyframes move-left-text-dem {
-    50% {
-        transform: translateY(150px);
-        transform: translateX(20%);
-        opacity: 1;
-    }
-    100% {
-        text-shadow: 6px 6px #FCBF49;
-        transform: translateY(150px);
-        transform: translateX(20%);
-        opacity: 1;
-    }
-}
-@keyframes appear {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@media (max-width: 1000px) {
-    .move-left-text {
-        left: 10px;
-    }
+    width: 25%;
 }

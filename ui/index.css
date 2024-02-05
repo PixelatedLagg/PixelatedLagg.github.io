@@ -1,136 +1,170 @@
 @font-face
 {
-  font-family: 'Inter';
-  src: url('./fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Inter';
+    src: url('./fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-body, html {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 100vh;
-  background-color: white;
-  display: flex; /* Add this line */
-  align-items: center; /* Center vertically */
-  justify-content: flex-start; /* Align to the left */
+body, html
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    background-color: white;
+    display: flex; /* Add this line */
+    align-items: center; /* Center vertically */
+    justify-content: flex-start; /* Align to the left */
+    background-size:cover;
+    background-image: url("imgs/header.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-.container {
-  height: 100vh;
-  width: 50px;
-  overflow: hidden;
+.container
+{
+    position: fixed;
+    height: 100vh;
+    width: 0.5in;
+    overflow: hidden;
+    background-color: white;
 }
 
-.text-slide {
-  position: absolute;
-  white-space: nowrap;
-  animation: slideDown 20s linear infinite;
-  transform: rotate(-90deg) translateX(-50%);
-  transform-origin: center left;
-  left: 25px; /* Center horizontally in the container */
-  width: 100vh; /* Extend the width to accommodate the rotated text */
-  height: 50px;
-  line-height: 50px;
-  font-size: 40px;
+.text-slide
+{
+    position: absolute;
+    white-space: nowrap;
+    animation: slideDown 20s linear infinite;
+    transform: rotate(-90deg) translateX(-50%);
+    transform-origin: center left;
+    width: 500px;
+    left: 0.25in;
+    height: 0.5in;
+    line-height: 0.5in;
+    font-size: 0.4in;
+}
+
+.text-slide:nth-child(1) {
+    animation-delay: 0s;
+}
+.text-slide:nth-child(2) {
+    animation-delay: -4s; /* Increases the delay between animations */
+}
+.text-slide:nth-child(3) {
+    animation-delay: -8s;
+}
+.text-slide:nth-child(4) {
+    animation-delay: -12s;
+}
+.text-slide:nth-child(5) {
+    animation-delay: -16s;
 }
 
 @keyframes slideDown
 {
-  0%
-  {
-    top: -100%; /* Start from above the view */
-  }
-  100%
-  {
-    top: 100%; /* Move to below the view */
-  }
+    0%
+    {
+        top: -100%; /* Start from above the view */
+    }
+    100%
+    {
+        top: 100%; /* Move to below the view */
+    }
 }
 
 .container div
 {
-  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
-  font-family: Inter;
-  z-index: 1;
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    font-family: Inter;
 }
 
 .main
 {
-  width: calc(100vw - 50px);
-  right: 0;
-  height: 100vh;
-  position: absolute;
-  /*background: linear-gradient(315deg, rgba(179,0,255,1) 0%, rgba(0,0,0,1) 100%);*/
-  background-image: url("imgs/header.jpg");
-  z-index: 0;
-  overflow-y: scroll;
+    left: 0.5in;
+    width: calc(100% - 0.5in);
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+    overflow-y: scroll;
 }
 
 h1
 {
-  font-size: 100px;
-  color: white;
-  font-family: Inter;
-  margin-top: 0;
-  margin-bottom: 24px;
-  margin-left: 24px;
+    font-size: 100px;
+    color: white;
+    font-family: Inter;
+    margin-top: 0;
+    margin-bottom: 24px;
+    margin-left: 24px;
 }
 
 h2
 {
-  line-height: 50px;
-  font-size: 40px;
-  color: black;
-  font-family: Inter;
-  margin: 0;
-  width: min-content;
-  padding-right: 10px;
-  background-color: white;
-  font-weight: normal;
-  float: left;
+    line-height: 50px;
+    font-size: 40px;
+    color: black;
+    font-family: Inter;
+    margin: 0;
+    width: min-content;
+    padding-right: 10px;
+    background-color: white;
+    font-weight: normal;
+    float: left;
 }
 
 p
 {
-  font-size: 24px;
-  color: white;
-  font-family: Inter;
-  margin-left: 24px;
-  width: 500px;
+    font-size: 24px;
+    color: white;
+    font-family: Inter;
+    margin-left: 24px;
+    width: 500px;
 }
 
 a
 {
-  color: white;
-  line-height: 50px;
-  font-size: 40px;
-  font-weight: bold;
-  text-decoration: none;
-  margin-left: 16px;
+    color: white;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 16px;
 }
 
 a:hover
 {
-  color: #CF4CD6;
-}
-
-.card
-{
-  width:min-content;
-  height: 70%;
-  border: 1px solid black;
-  position: relative;
-  background-color: white;
-  z-index: 2;
+    color: #CF4CD6;
 }
 
 .title
 {
-  display: inline-block;
+    display: inline-block;
+}
+
+@media (max-width: 770px)
+{
+    .text-slide {
+        animation: slideDown 50s linear infinite; /* Slows down the animation */
+    }
+    .text-slide:nth-child(1) {
+        animation-delay: 0s;
+    }
+    .text-slide:nth-child(2) {
+        animation-delay: -10s; /* Increases the delay between animations */
+    }
+    .text-slide:nth-child(3) {
+        animation-delay: -20s;
+    }
+    .text-slide:nth-child(4) {
+        animation-delay: -30s;
+    }
+    .text-slide:nth-child(5) {
+        animation-delay: -40s;
+    }
 }

@@ -1,0 +1,119 @@
+{
+    "projects":
+    [
+        {
+            "title": "MathInfo.org",
+            "link": "https://github.com/PixelatedLagg/MathInfo",
+            "symbol": "ϕ",
+            "description": "A website dedicated to articles about math and computer science, with the goal to spread knowledge about their many concepts."
+        },
+        {
+            "title": "Impart",
+            "link": "https://github.com/PixelatedLagg/Impart",
+            "symbol": "λ",
+            "description": "A framework for generating websites entirely with C#."
+        },
+        {
+            "title": "PMath",
+            "link": "https://github.com/PixelatedLagg/PMath",
+            "symbol": "∇",
+            "description": "A library intended to extend the math functionality of C#."
+        },
+        {
+            "title": "P3D",
+            "link": "https://github.com/PixelatedLagg/P3D",
+            "symbol": "⊕",
+            "description": "A very barebones 3D game engine written in C with GLUT."
+        },
+        {
+            "title": "Glimpse Engine",
+            "link": "https://github.com/PixelatedLagg/GlimpseEngine",
+            "symbol": "ψ",
+            "description": "A simple 2D game engine written in C with SDL2."
+        },
+        {   
+            "title": "BWGames",
+            "link": "https://github.com/PixelatedLagg/BWGames",
+            "symbol": "θ",
+            "description": "An (originally black and white) collection of command line games written in C#."
+        },
+        {
+            "title": "SpeebUp",
+            "link": "https://github.com/PixelatedLagg/SpeebUp",
+            "symbol": "≺",
+            "description": "A BepInEx mod that aims to make speedrunning Peeb's Adventures easier, written in C#."
+        },
+        {
+            "title": "HammerUtils",
+            "link": "https://github.com/PixelatedLagg/HammerUtils",
+            "symbol": "ω",
+            "description": "Utility for creating new projects with the old Hammer engine, designed specifically with CS1.6 maps in mind."
+        },
+        {
+            "title": "WOCChess",
+            "link": "https://github.com/PixelatedLagg/WOCChess",
+            "symbol": "β",
+            "description": "Chess program (and maybe eventual AI) created with goal of having contributors from the World of Coding discord server (discord.gg/woc)."
+        },
+        {
+            "title": "StringHelp",
+            "link": "https://github.com/PixelatedLagg/stringhelp",
+            "symbol": "±",
+            "description": "A website designed to assist string arithmetic by displaying each character's index."
+        },
+        {
+            "title": "CLICarry",
+            "link": "https://github.com/PixelatedLagg/CLICarry",
+            "symbol": "⋭",
+            "description": "A library built to massively simplify CLI command handling in C#."
+        },
+        {
+            "title": "LightCSV",
+            "link": "https://github.com/PixelatedLagg/LightCSV",
+            "symbol": "∝",
+            "description": "A very lightweight library intended to quickly parse CSV documents in C#."
+        },
+        {
+            "title": "Zwarp",
+            "link": "https://github.com/PixelatedLagg/Zwarp",
+            "symbol": "⅋",
+            "description": "A command line password manager which stores and encrypts passwords for any of your services, made with C#."
+        },
+        {
+            "title": "Scrape",
+            "link": "https://github.com/PixelatedLagg/Scrape",
+            "symbol": "⩒",
+            "description": "An abandoned language which was heavily based on C#."
+        },
+        {
+            "title": "Weather",
+            "link": "https://github.com/PixelatedLagg/weather",
+            "symbol": "∴",
+            "description": "A website that tells you the weather based on location. Only works for locations inside America; I might add more features in the future."
+        },
+        {
+            "title": "PSud",
+            "link": "https://github.com/PixelatedLagg/PSud",
+            "symbol": "ε",
+            "description": "A program that solves Sudoku puzzles with human strategies enabling move-by-move analysis. Written in C#."
+        },
+        {
+            "title": "Notepad",
+            "link": "https://github.com/PixelatedLagg/notepad",
+            "symbol": "⫛",
+            "description": "A website that mimics the very basic features of Windows notepad."
+        },
+        {
+            "title": "DUtilities",
+            "link": "https://github.com/PixelatedLagg/DUtilities",
+            "symbol": "⟃",
+            "description": "A library that adds utilities to D#+, of course written in C#."
+        },
+        {
+            "title": "PixelatedUtilities",
+            "link": "https://github.com/PixelatedLagg/PixelatedUtilities",
+            "symbol": "ℵ",
+            "description": "A library with miscellaneous utilities made in C#."
+        }
+    ]
+}

@@ -1,3 +1,8 @@
+:root
+{
+    --sideWidth: 948px;
+}
+
 @font-face
 {
     font-family: 'Inter';
@@ -13,9 +18,9 @@ body, html
     overflow: hidden;
     height: 100vh;
     background-color: white;
-    display: flex; /* Add this line */
-    align-items: center; /* Center vertically */
-    justify-content: flex-start; /* Align to the left */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     background-size:cover;
     background-image: url("imgs/header.jpg");
     background-attachment: fixed;
@@ -24,11 +29,11 @@ body, html
 
 .container
 {
-    position: fixed;
-    height: 100vh;
+    height: var(--sideWidth);
     width: 0.5in;
     overflow: hidden;
     background-color: white;
+    position: absolute;
 }
 
 .text-slide
@@ -38,18 +43,30 @@ body, html
     animation: slideDown 20s linear infinite;
     transform: rotate(-90deg) translateX(-50%);
     transform-origin: center left;
-    width: 500px;
+    width: var(--sideWidth);
     left: 0.25in;
     height: 0.5in;
     line-height: 0.5in;
     font-size: 0.4in;
 }
 
+@keyframes slideDown
+{
+    0%
+    {
+        top: -100%;
+    }
+    100%
+    {
+        top: var(--sideWidth);
+    }
+}
+
 .text-slide:nth-child(1) {
     animation-delay: 0s;
 }
 .text-slide:nth-child(2) {
-    animation-delay: -4s; /* Increases the delay between animations */
+    animation-delay: -4s;
 }
 .text-slide:nth-child(3) {
     animation-delay: -8s;
@@ -59,18 +76,6 @@ body, html
 }
 .text-slide:nth-child(5) {
     animation-delay: -16s;
-}
-
-@keyframes slideDown
-{
-    0%
-    {
-        top: -100%; /* Start from above the view */
-    }
-    100%
-    {
-        top: 100%; /* Move to below the view */
-    }
 }
 
 .container div
@@ -92,11 +97,12 @@ body, html
     position: absolute;
     z-index: 0;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 h1
 {
-    font-size: 100px;
+    font-size: calc(35vw - 0.5in);
     color: white;
     font-family: Inter;
     margin-top: 0;
@@ -124,7 +130,7 @@ p
     color: white;
     font-family: Inter;
     margin-left: 24px;
-    width: 500px;
+    width: 600px;
 }
 
 a
@@ -147,24 +153,14 @@ a:hover
     display: inline-block;
 }
 
-@media (max-width: 770px)
+@media (max-width: 700px)
 {
-    .text-slide {
-        animation: slideDown 50s linear infinite; /* Slows down the animation */
+    h2
+    {
+        font-size: 32px;
     }
-    .text-slide:nth-child(1) {
-        animation-delay: 0s;
-    }
-    .text-slide:nth-child(2) {
-        animation-delay: -10s; /* Increases the delay between animations */
-    }
-    .text-slide:nth-child(3) {
-        animation-delay: -20s;
-    }
-    .text-slide:nth-child(4) {
-        animation-delay: -30s;
-    }
-    .text-slide:nth-child(5) {
-        animation-delay: -40s;
+    p
+    {
+        width: calc(85vw - 0.5in);
     }
 }

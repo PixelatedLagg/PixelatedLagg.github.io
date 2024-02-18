@@ -1,117 +1,115 @@
 @charset "UTF-8";
-* {
+*
+{
     margin: 0;
     padding: 0;
 }
-body {
-    line-height: 30px;
+body
+{
+    line-height: 32px;
     overflow: hidden;
 }
-p {
+p
+{
     color: #CDDCD8;
-    font-size: medium;
+    font-size: 16px;
     font-family: 'Ubuntu Mono', monospace;
 }
-input {
-    font-size: medium;
+input
+{
+    font-size: 16px;
 }
-input:focus {
+input:focus
+{
     color: #CDDCD8;
     font-family: 'Ubuntu Mono', monospace;
 }
-i {
-    font-style: normal; 
+i
+{
+    font-style: normal;
     color: #7DB830;
 }
-b {
+b
+{
     font-style: normal; 
     color: #6888AA;
 }
-a {
+a
+{
     color: #6888AA;
-    font-size: medium;
+    font-size: 16px;
 }
-a:enabled {
+a:enabled
+{
     color: #6888AA;
-    font-size: medium;
+    font-size: 16px;
 }
-.terminal {
+.terminal
+{
     height: 80%;
-    width: 90%;
+    width: 92%;
     background-color: #300A24;
-    padding: 10px;
+    padding: 12px;
     border-radius: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow-x: hidden;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     position: absolute;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 }
-.terminal:hover {
-    cursor: pointer !important;
-}
-.terminal::-webkit-scrollbar {
-    display: none;
-}
-#input {
+#input
+{
     background: transparent;
     border: none;
     outline-width: 0;
     width: 100%;
-    pointer-events: none;
     color: #CDDCD8;
     font-family: 'Ubuntu Mono', monospace;
 }
-form {
+form
+{
     float: left;
     width: max-content;
 }
-span {
+span
+{
     color: #CDDCD8;
-    font-size: medium;
+    font-size: 16px;
     font-family: 'Ubuntu Mono', monospace;
     font-weight: normal;
     color: #6888AA;
     background-color: #000;
     border-radius: 4px;
 }
-span:hover {
+span:hover
+{
     color: #7DB830;
+    cursor: pointer;
 }
-.loading {
-    display:inline-block;
+.loading
+{
+    display: inline-block;
     clip-path: inset(0 3ch 0 0);
     animation: loadingDots 1s steps(4) infinite;
 }
-@keyframes loadingDots {
-    to {
+@keyframes loadingDots
+{
+    to
+    {
         clip-path: inset(0 -1ch 0 0)
     }
 }
-@media (max-width: 550px) {
-    .terminal {
+@media (max-width: 550px)
+{
+    .terminal
+    {
         width: 100%;
         height: 100%;
-        background-color: #300A24;
-        padding: 10px;
-        overflow-x: hidden;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        position: absolute;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
+        border-radius: 0;
+        box-sizing: border-box;
     }
-    #top-text {
+    #top-text
+    {
         display: none;
     }
 }

@@ -1,0 +1,10 @@
+{
+    "websites":
+    [
+        {
+            "title" : "Weather",
+            "description" : "A simple tool to inform you of the weather in your area (America only).",
+            "url" : "https://pixelatedlagg.github.io/weather/"
+        }
+    ]
+}
